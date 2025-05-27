@@ -1,0 +1,29 @@
+/* Settings CSS */
+.setting {
+    height: 90px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: lightblue;
+    margin-bottom: 24px;
+}
+
+#settingslist {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.InputField {
+    min-height: 24px;
+    margin: 5px;
+}
+
+
+.Closebtn {
+    padding: 3px;
+}

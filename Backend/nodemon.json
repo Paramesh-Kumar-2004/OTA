@@ -1,0 +1,14 @@
+{
+  "watch": ["src"],        
+  "ignore": ["public/*", "node_modules/*"], 
+  "ext": "js,json",         
+  "exec": "node src/index.js",
+  "delay": "1000",         
+  "verbose": true          
+}
+
+
+
+
+
+

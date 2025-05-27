@@ -1,0 +1,118 @@
+/* Modal overlay style */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    /* Ensure modal is on top */
+}
+
+/* Modal content box style */
+.modal-content {
+    background-color: white;
+    /* padding: 20px; */
+    padding-bottom: 20px;
+    border-radius: 8px;
+    width: 80%;
+    max-width: 600px;
+    max-height: 80%;
+    overflow-y: auto;
+    scrollbar-width: none;
+    /* Allow vertical scrolling when content overflows */
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Close button style */
+.modal-close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Styling for the checkboxes and labels */
+.checkbox-label {
+    font-size: 14px;
+    color: red;
+    margin-bottom: 10px;
+}
+
+/* Confirm button style */
+.modal-confirm-btn {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    /* Spacing between content and button */
+    width: 100%;
+}
+
+.modal-confirm-btn:hover {
+    background-color: #45a049;
+}
+
+.modal-confirm-btn:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+/* Cancel button style */
+.modal-cancel-btn {
+    padding: 10px 20px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.modal-cancel-btn:hover {
+    background-color: #e53935;
+}
+
+
+
+
+.MuiTableCell-root.VehiclePopUpTableHeadCellDark {
+    color: white;
+    border-bottom: 0.1rem solid gray;
+    text-align: center;
+}
+
+.MuiTableCell-root.VehiclePopUpTableHeadCellWhite {
+    color: white !important;
+    border-bottom: 0.1rem solid gray;
+    border: none;
+    text-align: center;
+}
+
+
+
+.MuiTableCell-root.VehiclePopUpTableBodyCellDark {
+    border-bottom: 0.1rem solid gray;
+    background: #1f2129;
+    color: white;
+}
+
+.MuiTableCell-root.VehiclePopUpTableHeadCellWhite {
+    border-bottom: 0.1rem solid gray;
+    color: black;
+}

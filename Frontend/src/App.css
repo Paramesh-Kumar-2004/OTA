@@ -1,0 +1,63 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+#InvalidURL {
+    display: flex;
+    background: skyblue;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+
+
+.App {
+    position: fixed;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding-right: 10%;
+    /* background: #000; */
+}
+
+#routes {
+    width: 100%;
+    position: relative;
+    /* background: pink; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+/* Light theme styles */
+body.light {
+    background-color: white;
+    color: black;
+}
+
+/* Dark theme styles */
+body.dark {
+    background-color: black;
+    color: white;
+}
+
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #444;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #666;
+}

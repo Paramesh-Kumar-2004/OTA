@@ -1,0 +1,61 @@
+.darkpaginationbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    align-items: center;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+    /* box-shadow: 0px 5px 10px white; */
+    /* border: 2px solid rgb(255, 255, 255); */
+    /* background: gray; */
+}
+
+.lightpaginationbar {
+    color: black;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* box-shadow: 0px 5px 10px rgb(37, 34, 34),
+        5px 0px 10px rgb(37, 34, 34); */
+    /* background: #f0f0f0; */
+}
+
+
+.ButtonPrevious {
+    background: #6B46C1;
+    margin-right: 50px;
+}
+
+.ButtonNext {
+    background: #6B46C1;
+    margin-left: 50px;
+}
+
+
+.ButtonPrevious:hover {
+    background: #a685f3;
+}
+
+.ButtonNext:hover {
+    background: #a685f3;
+}
+
+
+.pagecountnumber {
+    margin: 3px;
+    padding: 3px;
+    cursor: pointer;
+}
+
+.pagecountnumber:hover {
+    margin: 3px;
+    padding: 3px;
+    cursor: pointer;
+    color: skyblue;
+}

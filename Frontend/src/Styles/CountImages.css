@@ -1,0 +1,150 @@
+#main {
+  display: flex;
+  position: relative;
+  height: 50px;
+  width: 50px;
+  background-color: white;
+}
+
+.Icons {
+  height: 50%;
+  width: 50%;
+}
+
+#circle2 {
+  position: absolute;
+  top: 4%;
+  right: 5%;
+  height: 70%;
+  width: 70%;
+  background-color: white;
+  border-radius: 50%;
+  z-index: 1;
+}
+/* Cirecle 2 For Background */
+
+
+
+/* 1. All Campaigns */
+
+#circle1_all {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  top: 4%;
+  right: 5%;
+  height: 65%;
+  width: 65%;
+  background-color: rgba(255, 255, 3, 0.798);
+  border-radius: 50%;
+  z-index: 3;
+}
+
+#square_all {
+  margin: 5%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 60%;
+  width: 60%;
+  background-color: rgba(255, 255, 3, 0.798);
+  border-radius: 10px;
+  rotate: -10deg;
+  z-index: 1;
+}
+
+
+
+/* 2. Campleted Campaigns */
+
+#circle1_complete {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  top: 4%;
+  right: 5%;
+  height: 65%;
+  width: 65%;
+  background-color: rgba(255, 255, 3, 0.798);
+  border-radius: 50%;
+  z-index: 3;
+}
+
+#square_complete {
+  margin: 5%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 60%;
+  width: 60%;
+  background-color: rgba(255, 255, 3, 0.798);
+  border-radius: 10px;
+  rotate: -10deg;
+  z-index: 1;
+}
+
+
+
+/* 3. Waiting For Client Connection Campaigns */
+
+#circle1_ClientNotConnect {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  top: 4%;
+  right: 5%;
+  height: 65%;
+  width: 65%;
+  background-color: rgba(255, 255, 3, 0.798);
+  border-radius: 50%;
+  z-index: 3;
+}
+
+#square_ClientNotConnect {
+  margin: 5%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 60%;
+  width: 60%;
+  background-color: rgba(255, 255, 3, 0.798);
+  border-radius: 10px;
+  rotate: -10deg;
+  z-index: 1;
+}
+
+
+
+/* 4. Cancelled Campaigns */
+
+#circle1_cancelled {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  top: 4%;
+  right: 5%;
+  height: 65%;
+  width: 65%;
+  background-color: rgba(255, 255, 3, 0.798);
+  border-radius: 50%;
+  z-index: 3;
+}
+
+#square_cancelled {
+  margin: 5%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 60%;
+  width: 60%;
+  background-color: rgba(255, 255, 3, 0.798);
+  border-radius: 10px;
+  rotate: -10deg;
+  z-index: 1;
+}
+
+ 

@@ -1,0 +1,237 @@
+#MainDivLight {
+    background: white;
+    border-right: 1px solid rgb(228, 228, 228);
+    /* border-right: 3px solid whitesmoke; */
+    position: fixed;
+    overflow: scroll;
+    scrollbar-width: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#MainDivDark {
+    background: #191919;
+    border-right: 0.1px solid gray;
+    position: fixed;
+    overflow: scroll;
+    scrollbar-width: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    /* background: pink; */
+}
+
+#NavigateButtonsOpen {
+    height: 100%;
+    display: flex;
+    overflow: scroll;
+    scrollbar-width: none;
+    flex-direction: column;
+    justify-content: space-around;
+    /* background: orchid; */
+}
+
+#NavigateButtonsClose {
+    height: 100%;
+    /* margin-bottom: 50px; */
+    display: flex;
+    overflow: scroll;
+    scrollbar-width: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    /* background: orchid; */
+    animation: fadeOut 2s ease-in-out;
+}
+
+.ImagesClosed {
+    padding: 5px;
+    /* margin: 20px; */
+    /* min-height: 10px;
+    min-width: 20px; */
+    min-height: 3vh;
+    min-width: 3vw;
+    /* background: skyblue; */
+    cursor: pointer;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.ImagesOpened {
+    /* padding: 10px; */
+    padding-bottom: 3vh;
+    margin-right: 3px;
+    /* min-height: 20px;
+    min-width: 20px; */
+    min-height: 2vh;
+    min-width: 2vw;
+    height: auto;
+    width: auto;
+    /* background: skyblue; */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+
+
+.ImgAndText {
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: start;
+    /* background: skyblue; */
+    font-size: 2.5vh;
+    /* margin: 14px; */
+    cursor: pointer;
+    animation: fadeOut 2s ease-in-out;
+}
+
+
+.Mini {
+    animation: fadeOut 2s ease-in-out;
+}
+
+
+#expleoOpened {
+    margin-bottom: 5vh;
+    background-image: url("../images/expleologo.png");
+}
+
+#expleoClosed {
+    margin-bottom: 6vh;
+    background-image: url("../images/Expleo.png");
+}
+
+
+
+
+
+/* Images */
+
+
+/* For Dark */
+
+
+#DashbordImgDark {
+    background-image: url("../images/Icons/Light/Dashboard_Light.png");
+}
+
+#UserImgDark {
+    background-image: url("../images/Icons/Light/User_Light.png");
+}
+
+#VehicleImgDark {
+    background-image: url("../images/Icons/Light/Vehicle_Light.png");
+}
+
+#SoftwareImgDark {
+    background-image: url("../images/Icons/Light/Software_Light.png");
+}
+
+#CampaignImgDark {
+    background-image: url("../images/Icons/Light/Campaign_Light.png");
+}
+
+#SettingImgDark {
+    background-image: url("../images/Icons/Light/Setting_Light.png");
+}
+
+#CloseImgDark {
+    background-image: url("../images/Icons/Light/Right_Arrow_Light.png");
+    rotate: 180deg;
+}
+
+#OpenImgDark {
+    background-image: url("../images/Icons/Light/Right_Arrow_Light.png");
+}
+
+
+
+
+
+
+
+
+
+
+
+/* For Light */
+
+#DashbordImgLight {
+    background-image: url("../images/Icons/Dark/Dashboard_Dark.png");
+}
+
+#UserImgLight {
+    background-image: url("../images/Icons/Dark/User_Black.png");
+}
+
+#VehicleImgLight {
+    background-image: url("../images/Icons/Dark/Vehicle_Dark.png");
+}
+
+#SoftwareImgLight {
+    background-image: url("../images/Icons/Dark/Software_Dark.png");
+}
+
+#CampaignImgLight {
+    background-image: url("../images/Icons/Dark/Campaign_Dark.png");
+}
+
+#SettingImgLight {
+    background-image: url("../images/Icons/Dark/Setting_Dark.png");
+}
+
+#CloseImgLight {
+    background-image: url("../images/Icons/Dark/Right_Arrow_Dark.png");
+    rotate: 180deg;
+}
+
+#OpenImgLight {
+    background-image: url("../images/Icons/Dark/Right_Arrow_Dark.png");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes fadeOut {
+    0% {
+        opacity: 0;
+        /* Fully visible */
+    }
+
+    100% {
+        opacity: 1;
+        /* Fully transparent */
+    }
+}
+
+
+
+
+
+
+@media (max-width: 700px) {
+    #OpenImgDark {
+        display: none;
+    }
+
+    #OpenImgLight {
+        display: none;
+    }
+}

@@ -1,0 +1,114 @@
+/* Modal overlay style */
+.mainbox {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    /* Ensure modal is on top */
+}
+
+#campaign_detail_main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* height: 80%; */
+    max-height: 80%;
+    height: auto;
+    width: 60%;
+    z-index: 1000;
+    /* border-radius: 24px; */
+    /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); */
+    opacity: 0;
+    /* padding-bottom: 20px; */
+    animation: fadeIn 500ms ease-in-out forwards;
+}
+
+#Campaign_Details_Data {
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    color: #333;
+    /* background: red; */
+    overflow: scroll;
+    margin-bottom: 10px;
+    scrollbar-width: none;
+    font-family: 'Arial', sans-serif;
+}
+
+#Campaign_Details_Data table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#Campaign_Details_Data td {
+    padding: 8px;
+}
+
+#THSoftwareStatusDetailDate:hover {
+    cursor: wait;
+}
+
+#THSoftwareStatusDetailDate:hover::after {
+    content: "Last Updated Date";
+    position: absolute;
+    background-color: gray;
+    padding: 5px;
+    font-size: small;
+    border-radius: 10px;
+}
+
+#Campaign_Details_Data p {
+    margin: 10px 0;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+#CampaignStatusCancelButton {
+    background: red;
+}
+
+#CampaignStatusCloseButton {
+    background: #6846C6;
+}
+
+.THSoftwareStatusDetailPopup {
+    border: 1px solid #6846C6;
+    /* border: 1px solid white; */
+    padding: 14px;
+}
+
+.TBSoftwareStatusDetailPopup {
+    text-align: center;
+    /* border-bottom: 2px #9ca49d solid; */
+    flex-wrap: wrap;
+    border: 1px solid white;
+}
+
+
+
+/* Keyframes */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
