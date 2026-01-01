@@ -5,7 +5,7 @@ import usersReducer from '../features/Users/UsersSlice'
 import vehicalReducer  from "../features/Vehicals/VehicalsSlice";
 import SoftwareReducer from '../features/Software/SoftwareSlice';
 import CampaignReducer from '../features/Campaign/CampaignSlice'
-  
+
 export const store = configureStore({
     reducer:{
         [otaApi.reducerPath]:otaApi.reducer,
